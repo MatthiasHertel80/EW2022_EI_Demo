@@ -12,12 +12,7 @@
 
 name: Arm Virtual Hardware basic example - github hosted - remote AWS via GH plugin
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    paths:
-      - .github/workflows/basic.yml
-      - basic/**/*
+
   workflow_dispatch:
 
 env:
@@ -53,7 +48,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: results
-        path: *.*
+        path: .
         retention-days: 1
         if-no-files-found: error
       if: always()
