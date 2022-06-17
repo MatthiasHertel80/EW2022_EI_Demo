@@ -57,9 +57,9 @@
     <component Cclass="Machine Learning" Cgroup="NPU Support" Csub="Ethos-U Driver" Cvariant="Generic U55/U65" Cvendor="Arm"/>
     <component Cclass="Machine Learning" Cgroup="TensorFlow" Csub="Kernel" Cvariant="Ethos-U" Cvendor="tensorflow"/>
     <component Cclass="Machine Learning" Cgroup="TensorFlow" Csub="Kernel Utils" Cvendor="tensorflow">
-      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/debug_log.cpp" version="1.22.02"/>
-      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/micro_time.cpp" version="1.22.02"/>
-      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/system_setup.cpp" version="1.22.02"/>
+      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/debug_log.cpp" version="1.22.2"/>
+      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/micro_time.cpp" version="1.22.2"/>
+      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/system_setup.cpp" version="1.22.2"/>
     </component>
     <component Cclass="Native Driver" Cgroup="UART" Cvendor="ARM"/>
   </components>
