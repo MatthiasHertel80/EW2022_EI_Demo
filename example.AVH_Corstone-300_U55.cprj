@@ -11,12 +11,12 @@
   <packages>
     <package name="CMSIS" vendor="ARM" version="5.8.0:5.8.0"/>
     <package name="V2M_MPS3_SSE_300_BSP" vendor="ARM" version="1.2.0:1.2.0"/>
-    <package name="ethos-u-core-driver" vendor="Arm" version="1.22.02:1.22.02"/>
-    <package name="flatbuffers" vendor="tensorflow" version="1.22.02:1.22.02"/>
-    <package name="gemmlowp" vendor="tensorflow" version="1.22.02:1.22.02"/>
-    <package name="kissfft" vendor="tensorflow" version="1.22.02:1.22.02"/>
-    <package name="ruy" vendor="tensorflow" version="1.22.02:1.22.02"/>
-    <package name="tensorflow-lite-micro" vendor="tensorflow" version="1.22.02:1.22.02"/>
+    <package name="ethos-u-core-driver" vendor="Arm" version="1.22.2:1.22.2"/>
+    <package name="flatbuffers" vendor="tensorflow" version="1.22.2:1.22.2"/>
+    <package name="gemmlowp" vendor="tensorflow" version="1.22.2:1.22.2"/>
+    <package name="kissfft" vendor="tensorflow" version="1.22.2:1.22.2"/>
+    <package name="ruy" vendor="tensorflow" version="1.22.2:1.22.2"/>
+    <package name="tensorflow-lite-micro" vendor="tensorflow" version="1.22.2:1.22.2"/>
   </packages>
 
   <compilers>
