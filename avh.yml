@@ -9,7 +9,7 @@ upload:
   - bsp/**/*
   - source/**/*
   - example.AVH_Corstone-300_U55.cprj
-  steps:
+steps:
   - run: |
       cbuild.sh example.AVH_Corstone-300_U55.cprj
       avh_run.sh
