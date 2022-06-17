@@ -5,7 +5,10 @@ backend:
     ami-version: ~=1.1
     instance-type: t2.micro
 upload:
-  - "**"
+  - RTE/**/*
+  - bsp/**/*
+  - source/**/*
+  - example.AVH_Corstone-300_U55.cprj
   steps:
   - run: |
       cbuild.sh example.AVH_Corstone-300_U55.cprj
