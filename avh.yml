@@ -8,7 +8,7 @@ upload:
   - RTE/**/*
   - bsp/**/*
   - source/**/*
-  - */
+  - example.AVH_Corstone-300_U55.cprj
 steps:
   - run: |
       cbuild.sh example.AVH_Corstone-300_U55.cprj
