@@ -77,6 +77,7 @@
       <file category="sourceCpp" name="./source/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp"/>
       <file category="sourceCpp" name="./source/edge-impulse-sdk/dsp/image/processing.cpp"/>
       <file category="sourceCpp" name="./source/edge-impulse-sdk/dsp/memory.cpp"/>
+      <file category="sourceC" name="./source/arm_nn_softmax_common_s8.c"/>
     </group>
     <group name="hal">
       <cflags add="-I ./bsp/AVH_Corstone-300_U55" compiler="AC6"/>
