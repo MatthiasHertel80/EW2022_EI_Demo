@@ -9,6 +9,7 @@ upload:
   - bsp/**/*
   - source/**/*
   - example.AVH_Corstone-300_U55.cprj
+  - avh_run.sh
 steps:
   - run: |
       # sudo ./install_avh_build_tools.sh
