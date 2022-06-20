@@ -9,14 +9,14 @@
   </info>
 
   <packages>
-    <package name="CMSIS" vendor="ARM" version="5.8.0:5.8.0"/>
+    <package name="CMSIS" vendor="ARM" version="5.9.0:5.9.0"/>
     <package name="V2M_MPS3_SSE_300_BSP" vendor="ARM" version="1.2.0:1.2.0"/>
-    <package name="ethos-u-core-driver" vendor="Arm" version="1.22.2:1.22.2"/>
+    <package name="ethos-u-core-driver" vendor="Arm" version="1.22.5-rc4:1.22.5-rc4"/>
     <package name="flatbuffers" vendor="tensorflow" version="1.22.5-rc4:1.22.4-rc4"/>
-    <package name="gemmlowp" vendor="tensorflow" version="1.22.2:1.22.2"/>
-    <package name="kissfft" vendor="tensorflow" version="1.22.2:1.22.2"/>
-    <package name="ruy" vendor="tensorflow" version="1.22.2:1.22.2"/>
-    <package name="tensorflow-lite-micro" vendor="tensorflow" version="1.22.2:1.22.2"/>
+    <package name="gemmlowp" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
+    <package name="kissfft" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
+    <package name="ruy" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
+    <package name="tensorflow-lite-micro" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
   </packages>
 
   <compilers>
@@ -57,9 +57,9 @@
     <component Cclass="Machine Learning" Cgroup="NPU Support" Csub="Ethos-U Driver" Cvariant="Generic U55" Cvendor="Arm"/>
     <component Cclass="Machine Learning" Cgroup="TensorFlow" Csub="Kernel" Cvariant="Ethos-U" Cvendor="tensorflow"/>
     <component Cclass="Machine Learning" Cgroup="TensorFlow" Csub="Kernel Utils" Cvendor="tensorflow">
-      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/debug_log.cpp" version="1.22.2"/>
-      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/micro_time.cpp" version="1.22.2"/>
-      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/system_setup.cpp" version="1.22.2"/>
+      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/debug_log.cpp" version="1.22.5-rc4"/>
+      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/cortex_m_generic/micro_time.cpp" version="1.22.5-rc4"/>
+      <file attr="config" category="sourceCpp" name="tensorflow/lite/micro/system_setup.cpp" version="1.22.5-rc4"/>
     </component>
     <component Cclass="Native Driver" Cgroup="UART" Cvendor="ARM"/>
   </components>
