@@ -11,8 +11,8 @@ upload:
   - example.AVH_Corstone-300_U55.cprj
 steps:
   - run: |
-      sudo ./install_avh_build_tools.sh
-      # cbuild.sh example.AVH_Corstone-300_U55.cprj
-      # avh_run.sh
+      # sudo ./install_avh_build_tools.sh
+      cbuild.sh example.AVH_Corstone-300_U55.cprj
+      avh_run.sh
 download:
   - Objects/example.axf 
