@@ -14,7 +14,8 @@ steps:
   - run: |
       # sudo ./install_avh_build_tools.sh
       cbuild.sh example.AVH_Corstone-300_U55.cprj > build.log
-      #avh_run.sh
+      VHT_Corstone_SSE-300_Ethos-U55 -V ../VSI/audio/python -f ./fvp_config.txt --stat --simlimit 24 ./Objects/example.axf > run.log
 download:
   - Objects/example.axf 
   - build.log
+  - run.log
