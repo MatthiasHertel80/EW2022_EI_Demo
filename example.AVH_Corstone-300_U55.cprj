@@ -12,7 +12,7 @@
     <package name="CMSIS" vendor="ARM" version="5.9.0:5.9.0"/>
     <package name="V2M_MPS3_SSE_300_BSP" vendor="ARM" version="1.2.0:1.2.0"/>
     <package name="ethos-u-core-driver" vendor="Arm" version="1.22.5-rc4:1.22.5-rc4"/>
-    <package name="flatbuffers" vendor="tensorflow" version="1.22.5-rc4:1.22.4-rc4"/>
+    <package name="flatbuffers" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
     <package name="gemmlowp" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
     <package name="kissfft" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
     <package name="ruy" vendor="tensorflow" version="1.22.5-rc4:1.22.5-rc4"/>
