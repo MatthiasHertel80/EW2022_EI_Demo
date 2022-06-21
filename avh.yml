@@ -9,10 +9,8 @@ upload:
   - bsp/**/*
   - source/**/*
   - example.AVH_Corstone-300_U55.cprj
-  - avh_run.sh
 steps:
   - run: |
-      # sudo ./install_avh_build_tools.sh
       cbuild.sh example.AVH_Corstone-300_U55.cprj > build.log
       VHT_Corstone_SSE-300_Ethos-U55 -f ./fvp_config.txt --stat --simlimit 24 ./Objects/example.axf > run.log
 download:
