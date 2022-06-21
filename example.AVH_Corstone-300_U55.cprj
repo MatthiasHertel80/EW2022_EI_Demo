@@ -29,7 +29,7 @@
     <cflags add="-O1 -Wno-documentation -Wno-documentation-unknown-command -Wno-license-management -Wno-missing-noreturn -Wno-missing-prototypes -Wno-missing-variable-declarations -Wno-nonportable-include-path -Wno-packed -Wno-parentheses-equality -Wno-reserved-id-macro -Wno-reserved-identifier -Wno-sign-conversion -Wno-unused-macros -ffunction-sections -fno-rtti -fshort-enums -fshort-wchar -funsigned-char -gdwarf-4 -std=c99 -xc" compiler="AC6"/>
     <cxxflags add="-O1 -Wno-documentation -Wno-documentation-unknown-command -Wno-license-management -Wno-missing-noreturn -Wno-missing-prototypes -Wno-missing-variable-declarations -Wno-nonportable-include-path -Wno-packed -Wno-parentheses-equality -Wno-reserved-id-macro -Wno-reserved-identifier -Wno-sign-conversion -Wno-unused-macros -ffunction-sections -fno-exceptions -fno-rtti -fshort-enums -fshort-wchar -funsigned-char -gdwarf-4 -std=c++11 -xc++" compiler="AC6"/>
     <includes>./source</includes>
-    <defines>ARM_NPU;EI_CLASSIFIER_ALLOCATION_STATIC;EI_CONFIG_ETHOS_U55_256;EI_ETHOS;ETHOSU55;ETHOSU_ARCH=U55</defines>
+    <defines>ARM_NPU;EI_CLASSIFIER_ALLOCATION_STATIC;EI_CONFIG_ETHOS_U55_256;EI_ETHOS;ETHOSU55</defines>
   </target>
 
   <components>
