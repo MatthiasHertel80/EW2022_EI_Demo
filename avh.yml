@@ -17,3 +17,4 @@ steps:
       avh_run.sh
 download:
   - Objects/example.axf 
+  - build.log
