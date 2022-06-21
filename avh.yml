@@ -9,6 +9,7 @@ upload:
   - bsp/**/*
   - source/**/*
   - example.AVH_Corstone-300_U55.cprj
+  - fvp_config.txt
 steps:
   - run: |
       cbuild.sh example.AVH_Corstone-300_U55.cprj > build.log
